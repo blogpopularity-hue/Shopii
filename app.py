@@ -8,7 +8,7 @@ app = Flask(__name__)
 # --- Configuration ---
 # WARNING: Apni API Key ko direct code mein daalna aam taur par aacha nahi maana jaata.
 # Lekin shuruaat ke liye, aap ise yahaan daal sakte hain.
-SHOPIFY_ACCESS_TOKEN = "YAHAN_APNA_SHOPIFY_ACCESS_TOKEN_DAALEIN"
+SHOPIFY_ACCESS_TOKEN = "https://shopii-3n94.onrender.com"
 
 # --- API Route ---
 @app.route('/index.php', methods=['GET'])
